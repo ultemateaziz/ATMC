@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     
+}
+
+#container img{
+    width: 70%;
+    margin: 50px 15%;
+}
+#container-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#container-2 .container-2-list{
+    width: 300px;
+    background-color: #E3E6F3;
+    height: 100px;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 35px 0px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+#container-2 .container-2-list a{
+    color: rgb(78, 78, 214);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#container-2 .container-2-list a:hover{
+    text-decoration: underline;
+}
+#staff-login h2{
+    text-align: center;
+}
+.login-main{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #e7e7e7;
+    outline: none;
+    border: none;
+    padding: 5px 0px 5px 20px;
+    border-radius: 5px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #8282f6;
+    outline: none;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 10px  5px;
+    cursor: pointer;
+}
+#back a{
+    background-color: #8b9fb4;
+    color: #e7e7e7;
+    text-decoration: none;
+    padding: 7px 20px;
+    margin-left: 20%;
+    border-radius: 50px 0px 0px 50px;
+}
+#staff{
+    padding: 0px 20px;
+}
+#staff h2{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+#staff .menu-main{
+   display: flex;
+   justify-content: center;
+}
+#staff .profile-icon-container{
+    display: flex;
+    justify-content: center;
+}
+#staff .profile-icon{
+    width: 100px;
+}
+.menu ul{
+    text-align: center;
+    margin: 20px 0px;
+}
+.menu ul li{
+    height: 50px;
+    width: 300px;
+    margin: 10px 0px;
+    background-color: #8b9fb4;
+    list-style: none;
+    border-radius: 3px;
+    padding-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #e7e7e7;
+    font-weight: 600;
+}
+
+#gpa{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #527f3d;
+    outline: none;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px  5px;
+    cursor: pointer;
+}
