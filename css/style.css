@@ -258,6 +258,25 @@ button{
     display: flex;
     justify-content: center;
 }
-
-
 /*  UPLOAD PAGE END */
+
+
+/*  PROJECT GROUP PAGE START */
+#project{
+    padding: 40px 5%;
+}
+#project .project{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 20px;
+}
+#project .project .project-list{
+    height: 200px;
+}
+#project .project .project-list h3{
+    background-color: #5e84ac;
+    padding: 10px 0px;
+    color: #e7e7e7;
+    text-align: center;
+}
+/*  PROJECT GROUP PAGE END */
