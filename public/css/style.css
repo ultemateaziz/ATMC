@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     
+}
+
+#container img{
+    width: 70%;
+    margin: 50px 15%;
+}
+#container-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#container-2 .container-2-list{
+    width: 300px;
+    background-color: #E3E6F3;
+    height: 100px;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 35px 0px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+#container-2 .container-2-list a{
+    color: rgb(78, 78, 214);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#container-2 .container-2-list a:hover{
+    text-decoration: underline;
+}
+#staff-login h2{
+    text-align: center;
+}
+.login-main{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #e7e7e7;
+    outline: none;
+    border: none;
+    padding: 5px 0px 5px 20px;
+    border-radius: 5px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #8282f6;
+    outline: none;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 10px  5px;
+    cursor: pointer;
+}
+#back a{
+    background-color: #8b9fb4;
+    color: #e7e7e7;
+    text-decoration: none;
+    padding: 7px 20px;
+    margin-left: 20%;
+    border-radius: 50px 0px 0px 50px;
+}
+#staff{
+    padding: 0px 20px;
+}
+#staff h2{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+#staff .menu-main{
+   display: flex;
+   justify-content: center;
+}
+#staff .profile-icon-container{
+    display: flex;
+    justify-content: center;
+}
+#staff .profile-icon{
+    width: 100px;
+}
+.menu ul{
+    text-align: center;
+    margin: 20px 0px;
+}
+.menu ul li{
+    height: 50px;
+    width: 300px;
+    margin: 10px 0px;
+    background-color: #8b9fb4;
+    list-style: none;
+    border-radius: 3px;
+    padding-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #e7e7e7;
+    font-weight: 600;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #689d4f;
+    outline: none;
+    border: none;
+    color: #f1f1f1;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px  5px;
+    cursor: pointer;
+}
+
+
+/* SFIA SKILLS PAGE START */
+ 
+.skills-container{
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*
+.skills-container .skills-container-list{
+    margin-bottom: 20px;
+}*/
+.skills-container input[type=text]{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+.btn{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: end;
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+
+  /* 
+  .custom-select select {
+    display: none;
+  }
+  */
+  /*
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  */
+
+
+/* SFIA SKILLS PAGE END */
+
+
+/* GROUPS PAGE START */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fff;
+    width: 380px;
+    max-width: 80%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.popup .popup-content h3{
+    font-size: 24px;
+    text-align: center;
+    color: orange;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*  GROUPS PAGE END */
+
+
+/*  UPLOAD PAGE START */
+#staff .upload h3{
+    text-align: center;
+    background-color: #8b9fb4;
+    color: #e7e7e7;
+    padding: 5px 0px;
+}
+#staff .upload-container{
+    display: flex;
+    justify-content: center;
+}
+/*  UPLOAD PAGE END */
+
+
+/*  PROJECT GROUP PAGE START */
+#project{
+    padding: 40px 5%;
+}
+#project .project{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 20px;
+}
+#project .project .project-list{
+    height: 200px;
+}
+#project .project .project-list h3{
+    background-color: #5e84ac;
+    padding: 10px 0px;
+    color: #e7e7e7;
+    text-align: center;
+}
+/*  PROJECT GROUP PAGE END */
